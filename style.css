@@ -1,0 +1,127 @@
+body {
+  background-color: white;
+  margin-right: 7%;
+  margin-left: 7%;
+  font-family: arial;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+header {
+  height: 600px;
+  width: 100%;
+  margin-top: 0;
+  background-image: url("header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  opacity: 0,5;
+}
+
+.Welcome__rocket {
+  display: block;
+  padding-left: 50%;
+  padding-right: 30%;
+  width: 50%;
+  width: 4%;
+  height: 4%;
+}
+
+.Welcome img {
+  width: 4%;
+  height: 4%;
+}
+
+.Discovery {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Discovery__learn, .Discovery__explorer, .Discovery__anticipate {
+  background-color: lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: auto;
+  width: 30%;
+  padding: 5%;
+  text-align: center;
+}
+
+.Discovery__learn img, .Discovery__explorer img, .Discovery__anticipate img {
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  padding-left: 17%;
+}
+
+.Discovery__explorer {
+  margin-left: 20px;
+}
+
+.Discovery__anticipate {
+  margin-left: 20px;
+}
+
+.Discovery__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Ready {
+  background-image: url("barre_grise.png");
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Ready__sentence {
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.Ready__tour img {
+  height: 200px;
+  width: auto;
+}
+
+.Ready__tour {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+/*# sourceMappingURL=style.css.map */
